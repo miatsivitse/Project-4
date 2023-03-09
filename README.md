@@ -36,7 +36,6 @@ We also performed exploratory data analysis in jupyter notebook to find basic in
 
 Using the final dataset, we created visualizations in Tableau to aid our understanding and analysis. This included various bar and pie charts to conceptualize the dataset. We also created a heatmap and scatterplots of the correlation between our variables. Last, we created a chart highlighting the point distribution between positive, negative and neutral sentiment within the dataset. 
 
-![eda_new](https://user-images.githubusercontent.com/112193116/223891151-18c32e9f-7b15-4571-9fb4-b2c3a9cd0ea1.png)
 
 # TABLEAU NOTEBOOKS
 
@@ -44,8 +43,8 @@ Using the final dataset, we created visualizations in Tableau to aid our underst
 
 [Tableau Notebook #2](https://public.tableau.com/app/profile/william.julius/viz/winepointsandprice/Story9?publish=yes)
 
-![tableaumap](https://user-images.githubusercontent.com/112193116/223897469-4cc8b357-f13a-4e95-9847-5240fc315807.png)
 
+![eda_tableau](https://user-images.githubusercontent.com/112193116/224119721-ffcdd6bb-dfad-4b19-bc4e-140e56f26f83.png)
 
 # DATA PRE-PROCESSING
 
@@ -170,7 +169,7 @@ The best hyperparameters using keras tuner
 
 # Conclusion
 
-
+![model_list](https://user-images.githubusercontent.com/112193116/224119727-349cc896-6c5b-46e8-9a5a-2f07e7ac904b.png)
 
 **Final Insights:**
 
