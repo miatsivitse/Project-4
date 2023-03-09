@@ -99,6 +99,8 @@ Our main problem with our model was that it was over-fitting. We also tried usin
 
 At first, we tried using PCA to reduce the dimensions of our data, which resulted in 3 features and then applied that to our neural network model. This decreased the overall accuracy significantly so we abandoned that approach. 
 
+![pca](https://user-images.githubusercontent.com/112193116/223909155-bea1453c-1bf5-4dd9-af3b-31d1fc7a4c3c.png)
+
 ![pca_layer](https://user-images.githubusercontent.com/112193116/223897465-8fed38ff-7a80-4f64-bfc0-e7b87afb6ec8.png)
 
 ![pca_accuracy](https://user-images.githubusercontent.com/112193116/223897464-2ba2e7da-a9db-4575-8bb4-101f69f04806.png)
