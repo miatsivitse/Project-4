@@ -99,6 +99,10 @@ Using RandomForestClassifier, we were able to achieve a model testing accuracy o
 
 we compared the predicted values from the model against the actual values
 
+![image (5)](https://user-images.githubusercontent.com/112193116/224095429-7729b125-4ec5-4b60-b738-a25a2f7da5eb.png)
+
+![image (6)](https://user-images.githubusercontent.com/112193116/224095982-0351fc72-935f-4d62-a928-bdd796094cf5.png)
+
 # DATA MODEL OPTIMIZATION
 
 Our main problem with our model was that it was over-fitting. We also tried using a MinMaxScaler instead of StandardScaler, but this also decreased the accuracy. 
