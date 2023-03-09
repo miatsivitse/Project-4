@@ -170,7 +170,7 @@ The best hyperparameters using keras tuner
 
 # Conclusion
 
-![model_list](https://user-images.githubusercontent.com/112193116/224119727-349cc896-6c5b-46e8-9a5a-2f07e7ac904b.png)
+![Screen Shot 2023-03-09 at 6 38 56 PM](https://user-images.githubusercontent.com/56003493/224185155-c0d1241e-0af7-4979-81f3-a9e0afecbe2b.png)
 
 **Final Insights:**
 
