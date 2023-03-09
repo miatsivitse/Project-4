@@ -41,7 +41,7 @@ Using the final dataset, we created visualizations in Tableau to aid our underst
 
 [Tableau Notebook #1](https://public.tableau.com/app/profile/mia.tsivitse/viz/Wine_Quality_EDA_1/WineQualityEDA)
 
-[Tableau Notebook #2](https://public.tableau.com/app/profile/william.julius/viz/winepointsandprice/Story9?publish=yes)
+[Tableau Notebook #2](https://public.tableau.com/app/profile/william.julius/viz/winepointsandprice/Californiaavgprices)
 
 [Tableau Notebook #3](https://public.tableau.com/app/profile/william.julius/viz/winemapshighsandlows/Mainstory)
 
