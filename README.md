@@ -7,7 +7,7 @@
 Team Members: AJ Domingo, Samuel Heaton, Alice Johnson, 
 Jananee Arjunan, Mia Tsivitse, William Julius
 
-**PROJECT SCOPE**
+# PROJECT SCOPE
 
 Many factors are considered by wine experts and reviewers when determining the quality of a wine, mainly the taste and subjective experience of drinking the wine. Though rating wine can be subjective, there are factors that contribute to the final taste, aroma, and quality of the wine, including the geographic region in which the grapes were grown and the wine was produced, weather factors, and elevation. 
 
