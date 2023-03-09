@@ -22,10 +22,9 @@ Google Places API was used to query the Winery name and Region in order to get l
 Visual Crossing’s History Summary API endpoint was used to query the coordinates and return summary weather data from the last year. We were able to add data points for Max Temp, Min Temp, Precipitation, Humidity, and Heat Index. We decided on using these particular weather values because our research indicated that these all can have an effect on grape quality. 
 Open Meteo API was used to query the coordinates and return an elevation datapoint. 
 
-<links>
+![API_screenshots](https://user-images.githubusercontent.com/112193116/223889653-e8c8f059-057f-4c73-b9c4-c39dc53a8f12.png)
 
 Using sqlalchemy, the final dataset was loaded into an Amazon Web Services RDS Postgres SQL database for ease of use in extracting the data while working in a cloud environment for the modeling steps. 
-
 
 **DATA EDA + VISUALIZATIONS**
 
@@ -33,8 +32,7 @@ We also performed exploratory data analysis in jupyter notebook to find basic in
 
 Using the final dataset, we created visualizations in Tableau to aid our understanding and analysis. This included various bar and pie charts to conceptualize the dataset. We also created a heatmap and scatterplots of the correlation between our variables. Last, we created a chart highlighting the point distribution between positive, negative and neutral sentiment within the dataset. 
 
-<link>
-
+![EDA_screenshot](https://user-images.githubusercontent.com/112193116/223889655-fa743f9e-72ae-4d23-beb0-15d0dae68cee.png)
 
 **TABLEAU NOTEBOOKS**
 
@@ -49,7 +47,9 @@ The preprocessing was completed in Google Colab in the same notebook for our mod
 
    We utilized SentimentAnalyzer and NaiveBayesClassifier from Natural Language Toolkit (NLTK) to create numerical data around sentiment to the description of each wine in our dataset, 
    
-   <link>
+![nltk_screenshot](https://user-images.githubusercontent.com/112193116/223889660-e1f6b8e9-cb60-43cb-a1aa-f6db3425e04e.png)
+
+![sentiment_plot](https://user-images.githubusercontent.com/112193116/223889663-fbcf0561-c464-4207-b758-d489fa4f7da0.png)
    
   * Dropped unnecessary columns: "wine_id", "country", “winery_name”, "description", "designation","taster_name", "taster_twitter_handle", "title". 
   * Created bins for the prices. 
@@ -59,11 +59,11 @@ The preprocessing was completed in Google Colab in the same notebook for our mod
   * Split the data into testing and training data. 
   * Scaled the data. 
   
- <link>
+ ![preprocess_screenshot](https://user-images.githubusercontent.com/112193116/223889661-3eb75d26-bc58-4b97-9306-9a92f281ff24.png)
  
  **Target Values**
  
- <link>
+ ![Target_values](https://user-images.githubusercontent.com/112193116/223889664-391ae6c0-8a0e-4f2a-a68d-aa983e22106a.png)
  
  **DATA MODEL IMPLEMENTATION**
  <link>
@@ -78,6 +78,10 @@ The preprocessing was completed in Google Colab in the same notebook for our mod
   * Trained over 100 epochs
 
 After running our model, we got a testing accuracy of 71 percent. We also noticed that our model was overfitting, and so we moved on to finding ways to optimize our model. 
+
+![initial_NN_model](https://user-images.githubusercontent.com/112193116/223889657-d859f143-dece-46ca-8f51-abdffd957429.png)
+
+![initialNN_Accuracy](https://user-images.githubusercontent.com/112193116/223889658-174fa2fe-86fc-48f8-9a32-c57718b1491c.png)
 
 
 
