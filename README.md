@@ -81,7 +81,7 @@ After running our model, we got a testing accuracy of 71 percent. We also notice
 
 ![initial_NN_model](https://user-images.githubusercontent.com/112193116/223889657-d859f143-dece-46ca-8f51-abdffd957429.png)
 
-![initialNN_Accuracy](https://user-images.githubusercontent.com/112193116/223889658-174fa2fe-86fc-48f8-9a32-c57718b1491c.png)
+![Screenshot 2023-03-08 201726](https://user-images.githubusercontent.com/112193116/223890193-f6cc5752-e56f-43dd-b3a7-d59e86bd85c1.png)
 
 
 
