@@ -49,7 +49,7 @@ The preprocessing was completed in Google Colab in the same notebook for our mod
 
    We utilized SentimentAnalyzer and NaiveBayesClassifier from Natural Language Toolkit (NLTK) to create numerical data around sentiment to the description of each wine in our dataset, 
    
-![nltk_new](https://user-images.githubusercontent.com/112193116/223891152-fa024dc6-201b-4791-bada-5cc7de4352e7.png)
+![nltttttk](https://user-images.githubusercontent.com/112193116/223899797-17aaea3f-d3f8-482f-98ea-42435e33bfa4.png)
 
 ![sentiment_new](https://user-images.githubusercontent.com/112193116/223891155-8ac51392-7499-4f45-a882-d02ab439fa57.png)
    
