@@ -168,6 +168,23 @@ The best hyperparameters using keras tuner
 
 ![best_hyperparameter](https://user-images.githubusercontent.com/112193116/223897457-f30abe0f-e37f-4b56-b60a-049ad9cfaf2a.png)
 
+# Conclusion
+
+
+
+**Final Insights:**
+
+* There were a total of 48.8K wines analyzed in our dataset. Overall, 68% were from California, 16% from Washington, 10% from Oregon, and 6% from New York.
+
+* The highest count of wines rated as ‘Classic’ were found in California (14K) as well as in the region of Napa Valley (2.1K), when compared to other states and regions.
+
+* Every wine in our dataset that was >$300 in price was rated as ‘Classic’. In comparison, only 11% of the 10.2K wines in the >$20 price range were rated as ‘Classic’.
+
+* There was a moderate correlation between price and the review score (points) at 0.45 (Pearson Correlation).
+
+* We believe our dataset could be improved in the future by increasing our total sample size from additional states and countries. Expanding our dataset could have further improved model accuracy. 
+
+* In the future, this data could also be used for investments/marketing purposes, such as recommending the best wineries based on ideal weather conditions.
 
 
 
