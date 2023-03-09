@@ -11,7 +11,11 @@ Jananee Arjunan, Mia Tsivitse, William Julius
 
 Many factors are considered by wine experts and reviewers when determining the quality of a wine, mainly the taste and subjective experience of drinking the wine. Though rating wine can be subjective, there are factors that contribute to the final taste, aroma, and quality of the wine, including the geographic region in which the grapes were grown and the wine was produced, weather factors, and elevation. 
 
-In this project, we explored data from wine reviews and supplemented this data with additional aggregated weather and elevation data. Using machine learning, our goal was to create a model that could predict the final rating of the wine as an indicator of its quality and potential sentiment amongst wine reviewers. 
+In this project, we explored data from wine reviews and supplemented our dataset with additional aggregated weather and elevation data. Using machine learning, our goal was to create a model that could predict the final rating of the wine as an indicator of its quality (‘classic’ or ‘good’).
+
+90-100 Points – Classic: a great wine of superior character and style
+80-89 Points – Good: a solid, well-made wine
+
 
 # DATA ETL
 
