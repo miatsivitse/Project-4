@@ -43,6 +43,7 @@ Using the final dataset, we created visualizations in Tableau to aid our underst
 
 [Tableau Notebook #2](https://public.tableau.com/app/profile/william.julius/viz/winepointsandprice/Story9?publish=yes)
 
+[Tableau Notebook #3](https://public.tableau.com/app/profile/william.julius/viz/winemapshighsandlows/Mainstory)
 
 ![final_eda_tableau](https://user-images.githubusercontent.com/112193116/224120408-95d0ff55-3708-4f5f-9fc6-0476757fa4e0.png)
 
