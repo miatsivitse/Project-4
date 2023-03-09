@@ -40,6 +40,8 @@ Using the final dataset, we created visualizations in Tableau to aid our underst
 
 [Tableau Notebook #2](https://public.tableau.com/app/profile/william.julius/viz/winepointsandprice/Story9?publish=yes)
 
+![tableaumap](https://user-images.githubusercontent.com/112193116/223897469-4cc8b357-f13a-4e95-9847-5240fc315807.png)
+
 
 # DATA PRE-PROCESSING
 
@@ -86,7 +88,8 @@ After running our model, we got a testing accuracy of 71 percent. We also notice
 **Random Forest Classifier**
 
 Using RandomForestClassifier, we were able to achieve a model testing accuracy of 76 percent, but it was still over-fitting as the training accuracy was 99 percent.
-<link>
+
+![random forest](https://user-images.githubusercontent.com/112193116/223897467-6d30c080-52f6-42c4-b2eb-a9b982c1474b.png)
 
 # DATA MODEL OPTIMIZATION
 
@@ -96,11 +99,14 @@ Our main problem with our model was that it was over-fitting. We also tried usin
 
 At first, we tried using PCA to reduce the dimensions of our data, which resulted in 3 features and then applied that to our neural network model. This decreased the overall accuracy significantly so we abandoned that approach. 
 
-<link>
+![pca_layer](https://user-images.githubusercontent.com/112193116/223897465-8fed38ff-7a80-4f64-bfc0-e7b87afb6ec8.png)
+
+![pca_accuracy](https://user-images.githubusercontent.com/112193116/223897464-2ba2e7da-a9db-4575-8bb4-101f69f04806.png)
+
 
 **2. Feature importance used to look for best features using SelectFromModel**
 
-<link>
+![best_features](https://user-images.githubusercontent.com/112193116/223897456-69d72843-e0ff-4eb5-9e71-a25fc7904a13.png)
 
 We tried checking with different number of features and nodes combination.
 
@@ -108,16 +114,23 @@ We tried checking with different number of features and nodes combination.
 
 Initially, we tried using the top 20 features with 1 hidden layer and 50 Epochs to train the model using NN. We did not see any overfitting occur and the accuracy was 72 percent.
 
-<links>
+![20features](https://user-images.githubusercontent.com/112193116/223897447-fcdc79d6-4c34-451d-ac2e-0ef6e63e1d67.png)
+
+![accuracy_loss-plots](https://user-images.githubusercontent.com/112193116/223897454-6be88ec6-1f43-4f48-af77-f3a605504a89.png)
 
 **Top 45 features**
-<link>
+
+![45_features](https://user-images.githubusercontent.com/112193116/223897449-eeba8f54-a848-45aa-9c2c-737432e72b3e.png)
 
 **Top 65 features**
-<link>
+
+![65_features](https://user-images.githubusercontent.com/112193116/223897450-00ba2788-df08-4d5a-9801-f2710bb93024.png)
 
 **Top 85 features**
-<link>
+
+![85_features](https://user-images.githubusercontent.com/112193116/223897451-b2ee02f7-5675-4181-b773-a755485ff578.png)
+
+![85_plots](https://user-images.githubusercontent.com/112193116/223897452-64046e20-57cc-4c91-84a6-86c0a8666455.png)
 
 After increasing the number of features and layers, the model was overfitting and the accuracy was dropping. Without overfitting the model, we achieved 72% accuracy by optimizing.
 
@@ -125,11 +138,30 @@ After increasing the number of features and layers, the model was overfitting an
 
 We tried to use MinMaxScaler to try to improve accuracy, but it gave us a lower result at 53%.
 
+![min_mas_scale](https://user-images.githubusercontent.com/112193116/223897463-b3662567-8408-4b5f-bfd3-bd9192fa3253.png)
+
 <link>
 
 **4. KerasTuner**
 
 We utilized KerasTuner as an optimization to help us identify an optimal set of hyperparameters. We started with trying different max and step values and ran the KerasTuner model with 60 epochs. After testing 500/20, 400/20, and 500/30 max/step ratios, we found the highest accuracy to be 73% at 400/20. 
+
+![keras_tuner](https://user-images.githubusercontent.com/112193116/223897462-f338e1fa-8734-4fdd-af81-8b9bbfead434.png)
+
+![keras_accuracy](https://user-images.githubusercontent.com/112193116/223897461-96bd7c5c-d121-4cec-af0d-3fef97f4a4ef.png)
+
+The best hyperparameters using keras tuner
+
+![best_hyperparameter](https://user-images.githubusercontent.com/112193116/223897457-f30abe0f-e37f-4b56-b60a-049ad9cfaf2a.png)
+
+
+
+
+
+
+
+
+
 
 
 
