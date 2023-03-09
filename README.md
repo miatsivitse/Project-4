@@ -78,7 +78,7 @@ The preprocessing was completed in Google Colab in the same notebook for our mod
   * Input features - 247 (length of our X_train after getting dummies)
   * 2 hidden layers
   * 400 nodes - layer 1
-  * 200 nodes - layer 2
+  * 100 nodes - layer 2
   * Relu-activation function for the hidden layers
   * Trained over 100 epochs
   
