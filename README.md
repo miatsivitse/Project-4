@@ -91,9 +91,9 @@ After running our model, we got a testing accuracy of 71 percent. We also notice
 
 **Random Forest Classifier**
 
-Using RandomForestClassifier, we were able to achieve a model testing accuracy of 76 percent, but it was still over-fitting as the training accuracy was 99 percent.
+Using RandomForestClassifier, we were able to achieve a model testing accuracy of 77 percent, but it was still over-fitting as the training accuracy was 99 percent.
 
-![random forest](https://user-images.githubusercontent.com/112193116/223897467-6d30c080-52f6-42c4-b2eb-a9b982c1474b.png)
+![Random forest](https://user-images.githubusercontent.com/112193116/223926127-2fcc1878-3a31-4592-b583-5d0d189bf286.png)
 
 # DATA MODEL OPTIMIZATION
 
